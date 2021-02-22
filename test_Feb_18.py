@@ -33,7 +33,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.naive_bayes import GaussianNB
 
-aa1 = (pd.read_csv(r"C:\\Users\\r\\Desktop\\logFiles\sep21.csv", names=['classs','hum1.0', 'temp1.0', 'hum2.0', 'temp2.0', 'hum3.0', #4
+aa1 = (pd.read_csv(r"C:\\.csv", names=['classs','hum1.0', 'temp1.0', 'hum2.0', 'temp2.0', 'hum3.0', #4
 
                                                                             'temp3.0', 'hum4.0', 'temp4.0', 'hum5.0', 'temp5.0', #9
 
@@ -1519,7 +1519,7 @@ print(__doc__)
 # Modified for documentation by Jaques Grobler
 # License: BSD 3 clause
 np.random.seed(5)
-aa1 = (pd.read_csv(r"C:\\Users\\r\\Desktop\\logFiles\numPro-0130.csv", names=['classs','hum1.0', 'temp1.0', 'hum2.0', 'temp2.0', 'hum3.0', #5
+aa1 = (pd.read_csv(r"C:.csv", names=['classs','hum1.0', 'temp1.0', 'hum2.0', 'temp2.0', 'hum3.0', #5
 
                                                                             'temp3.0', 'hum4.0', 'temp4.0', 'hum5.0', 'temp5.0', #10
 
