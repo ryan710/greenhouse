@@ -18,7 +18,7 @@ baud_rate = 9600
 print(datetime.datetime.now())
 
 ser = serial.Serial(serial_port, baud_rate)
-with open(r"C:\\feb18.csv", "a+") as f:     #### r"C:\\Users\\r\\Desktop\\logFiles\feb18.csv", "a+") as f:
+with open(r"C:\\feb18.csv", "a+") as f:     
     while True:
         if time.time() > start + runtime : sys.exit("end")
         
